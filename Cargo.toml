@@ -33,7 +33,7 @@ parking_lot = "0.12"
 tempfile = { version = "3", optional = true }
 thiserror = "1"
 
-ffi = { package = "mdbx-sys", version = "=0.12.7", path = "./mdbx-sys" }
+ffi = { package = "mdbx-sys", version = "=0.12.7", path = "./mdbx-sys", default-features = false, features = [] }
 
 lifetimed-bytes = { version = "0.1", optional = true }
 
