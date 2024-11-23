@@ -11,7 +11,7 @@ keywords = ["MDBX", "database", "storage-engine", "bindings", "library"]
 categories = ["database", "external-ffi-bindings"]
 
 [features]
-default = ["runtime"]
+#default = ["runtime"]
 runtime = ["bindgen/runtime"]
 static = ["bindgen/static"]
 

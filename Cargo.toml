@@ -46,7 +46,7 @@ serde = { version = "1", features = ["derive"] }
 tempfile = "3"
 
 [features]
-default = ["runtime"]
+#default = ["runtime"]
 runtime = ["ffi/runtime"]
 static = ["ffi/static"]
 cbor = ["ciborium"]
